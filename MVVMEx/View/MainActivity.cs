@@ -54,8 +54,8 @@ namespace MVVMEx
             viewModel.SetUSerEmail(userNameET.Text);
             viewModel.SetUSerPassword(userPassET.Text);
 
-            var message = viewModel.OnButtonClicked();
-         
+            viewModel.OnButtonClicked();
+                                                                                                                                                    
             
           
         }

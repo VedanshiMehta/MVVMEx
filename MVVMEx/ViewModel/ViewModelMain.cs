@@ -96,6 +96,7 @@ namespace MVVMEx.ViewModel
         private bool IsValid()
         {
             return !TextUtils.IsEmpty(GetUserEmail()) && Patterns.EmailAddress.Matcher(GetUserEmail()).Matches() && GetUserPassword().Length > 5;
+      
         }
     }
 
